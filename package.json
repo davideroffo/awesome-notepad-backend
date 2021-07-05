@@ -1,0 +1,33 @@
+{
+  "name": "awesome-notepad-backend",
+  "version": "1.0.0",
+  "description": "Awesome Notepad Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideroffo/awesome-notepad-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davideroffo/awesome-notepad-backend/issues"
+  },
+  "homepage": "https://github.com/davideroffo/awesome-notepad-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.1.0",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
